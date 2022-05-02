@@ -19,8 +19,11 @@ There are 4 csv files for each one of the services that were considered.
   
   Sources for csv files
 Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/shivamb/netflix-shows. 
+
 Bansal, Shivam. “Hulu Movies and TV Shows.” Kaggle, 25 Oct. 2021, https://www.kaggle.com/shivamb/hulu-movies-and-tv-shows. 
+
 Bansal, Shivam. “Amazon Prime Movies and TV Shows.” Kaggle, 12 Oct. 2021, https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows. 
+
 Bansal, Shivam. “Disney+ Movies and TV Shows.” Kaggle, 29 Nov. 2021, https://www.kaggle.com/shivamb/disney-movies-and-tv-shows. 
   
   
