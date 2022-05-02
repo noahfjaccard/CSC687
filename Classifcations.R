@@ -26,10 +26,6 @@ df3<-dataframe%>%slice(three.downsample)
 df4<-dataframe%>%slice(four.downsample)
 dataframe<-rbind(df1,df2,df3,df4)
 
-#spilitng the data
-split <- sample.split(dataframe, SplitRatio = 0.8)
-train_cl <- subset(dataframe, split == "TRUE")
-test_cl <- subset(dataframe, split == "FALSE")
 
 # generate a random number of  80 percent of everything
 randomNum <- sample(1:nrow(dataframe), 0.8 * nrow(dataframe))
@@ -241,10 +237,10 @@ classifier_cl <- naiveBayes(Service~.-title-duration-listed_in-date_added-rating
 classifier_cl
 
 # Predicting on test data'
-y_pred <- predict(classifier_cl, newdata = test_cl)
+y_pred <- predict(classifier_cl, newdata = dfTest)
 
 # Confusion Matrix
-cm <- table(test_cl$Service, y_pred)
+cm <- table(dfTest$Service, y_pred)
 cm
 
 # Model Evaluation
