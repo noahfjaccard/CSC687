@@ -18,6 +18,8 @@ There are 4 csv files for each one of the services that were considered.
   
   Streaming Service Statistics.pdf is a presenetaion describing our thought process and project steps.
   
+  Streaming_report.pdf is a 10 page report going to detail about Background, Methods used, Dataset, and Results.
+  
   
   Sources for csv files
 Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/shivamb/netflix-shows. 
