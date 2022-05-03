@@ -16,6 +16,8 @@ There are 4 csv files for each one of the services that were considered.
   
   Then Classifcation methods are ran in Classifcations.R.
   
+  Streaming Service Statistics.pdf is a presenetaion describing our thought process and project steps.
+  
   
   Sources for csv files
 Bansal, Shivam. “Netflix Movies and TV Shows.” Kaggle, 27 Sept. 2021, https://www.kaggle.com/shivamb/netflix-shows. 
